@@ -7,7 +7,7 @@
   <title>Jupiter</title>
 </head>
 <body>
-  <div class="container">
+  <div id="container">
     <header class="header"></header>
     <header class="title"></header>
     <header class="title2"></header>
@@ -18,12 +18,9 @@
 
     <aside>
       <section class="topcontainer">
-        <section class="navbar1">
           <img src="images/leftnav_home_off.jpg" alt="Home Button" height="30px" width="200px">
           <img src="images/leftnav_news_off.jpg" alt="News Button" height="30px" width="200px">
           <img id="buttonshadow" src="images/leftnav_planets_sel.jpg" alt="Planets Button">
-        </section>
-        <section class="inset">
           <div class="navitem">Our Solar System</div>
           <div class="navitem">Sun </div>
           <div class="navitem">Mercury</div>
@@ -40,17 +37,26 @@
           <div class="navitem">Dwarf Planets</div>
           <div class="navitem">Comets</div>
           <div class="navitem">Kulper Belt & Oort Cloud</div>
-          <div class="navitem">Beyond Our Solar System</div>
-        </section>
-        <section class="navbar2">
+          <div class="navitem" id="lastnavitem">Beyond Our Solar System</div>
           <img src="images/leftnav_missions_off.jpg" alt="Missions Button" width="200px" height="30px">
           <img src="images/leftnav_scitech_off.jpg" alt="SciTech Button" width="200px" height="30px">
           <img src="images/leftnav_multimedia_off.jpg" alt="Multimedia Button" height="30px" width="200px">
           <img src="images/leftnav_people_off.jpg" alt="People Button" height="30px" width="200px">
           <img src="images/leftnav_kids_off.jpg" alt="Kids Button" width="200px" height="30px">
           <img id="buttonshadow" src="images/leftnav_educ_off.jpg" alt="Education Button" width="200px" height="30px">
-        </section>
       </section>
+
+<!-- START SEARCHBOX -->
+      <div class="searchBox"><form id="SSESearch" style="margin: 0px; padding: 0px;" method="post" action="../search/index.cfm" name="SSESearch"><input type="hidden" value="" name="SubsiteSearch"></input><div class="searchbox2" style="float: left;"><input id="criteria" class="searchinput2" type="Text" onblur="if(this.value=='')this.value='Search';" onfocus="if(this.value=='Search')this.value='';" name="criteria" value="Search"></input></div><div style="float: left;"><input id="Submit" width="23" type="Image" height="28" onmouseout="this.src = 'images/leftnav_searchbox_submit_off.png';" onmouseover="this.src = 'http://solarsystem.nasa.gov/images/leftnav_searchbox_submit_on.png';" alt="Click here to submit search request" label="Click here to submit search request" src="images/leftnav_searchbox_submit_off.png" name="Submit"></input></div></form><script>
+
+            document.getElementById('SSESearch').action = '../search/index.cfm';
+
+    </script><br clear="all"></br></div>
+<!-- END SEARCHBOX -->
+
+    <img id="socialmedia" src="images/followus_off.png" alt="Follow Us Button" width="175" height="29px">
+    <img id="webbys" src="images/webby-bug-double.png" alt="Double Webbys" height="185px" width="191px">
+
     </aside>
 
 
@@ -64,8 +70,45 @@
 
 
     <section class="main">Main section</section>
-    <footer>Footer</footer>
-
+    <footer>
+      <ul id="footernav">
+        <li>Awards and Recognition</li>
+        <li>Solar System Exploration Roadmap</li>
+        <li>Contact Us</li>
+        <li>Site Map</li>
+        <li>Print This Page</li>
+      </ul>
+      <img src="images/footerline.png" alt="footerline">
+      <ul id="credits1">
+        <li>NASA Official: Kristen Erickson</li>
+        <li>Advisory: Dr. James Green, Director of Planetary Science</li>
+        <li>Outreach Manager: Alice Wessen</li>
+        <li>Curator/Editor: Phil Davis</li>
+        <li>Science Writers: Samantha Harvey & Autumn Burdick</li>
+        <li>Producer: Greg Baerg</li>
+        <li>Webmaster: David Martin</li>
+      </ul>
+      <ul id="credits2">
+        <li>> NASA Science Mission Directorate</li>
+        <li>> Budgets, Strategic Plans and Accountability Reports</li>
+        <li>> Equal Employment Opportunity Data <br> &nbsp;&nbsp;&nbsp;Posted Pursuant to the No Fear Act</li>
+        <li>> Information-Dissemination Policies and Inventories</li>
+      </ul>
+      <ul id="credits3">
+        <li>> Freedom of Information Act</li>
+        <li>> Privacy Policy & Important Notices</li>
+        <li>> Inspector General Hotline</li>
+        <li>> Office of the Inspector General</li>
+        <li>> NASA Communications Policy</li>
+      </ul>
+      <ul id="credits4">
+        <li>> USA.gov</li>
+        <li>> ExpectMore.gov</li>
+        <li>> NASA Advisory Council</li>
+        <li>> Open Government at NASA</li>
+        <li>Last Updated: 26 Apr 2013</li>
+      </ul>
+    </footer>
   </div> <!--  close container -->
 
 </body>

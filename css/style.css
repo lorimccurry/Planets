@@ -1,9 +1,10 @@
 /* ---BODY--- */
 body {
-background: url(../images/bg-bottom.png) no-repeat;
+background: url(../images/bg-bottom.png) bottom no-repeat, url(http://solarsystem.nasa.gov/images/bg-top.png) top no-repeat;
 background-image: 100%;
 position: relative;
 top: -6px;
+background-color: black;
 }
 
 /* ---CLOSE BODY */
@@ -11,7 +12,7 @@ top: -6px;
 
 
 /* ---.CONTAINER--- */
-.container {
+#container {
   width: 950px;
   background-color: blue;
   margin: auto;
@@ -54,21 +55,20 @@ aside{
   width: 200px;
   float: left;
   height: 1676px;
+  -webkit-box-shadow: 0px 10px 25px 0px;
+   -moz-box-shadow: 0px 10px 25px 0px;
+   box-shadow: 0px 10px 25px 0px;
 }
 
 .topcontainer {
 background-color: #36223e;
-}
-
-.navbar1 img {
 float: left;
 width: 200px;
 }
 
-.inset {
-  float: left;
-  width: 200px;
-  background-color: #36223e;
+.topcontainer img {
+float: left;
+width: 200px;
 }
 
 .navitem {
@@ -76,15 +76,16 @@ width: 200px;
   font-family: Helvetica,Arial,sans-serif, serif;
   font-size: 12px;
   margin: 10px 0 10px 15px;
+  position: relative;
+  top: 10px;
 }
 
 #mainnavitem {
   color: rgb(255, 255, 255);
 }
 
-.navbar2 img {
-  float: left;
-  width: 200px;
+#lastnavitem {
+  padding-bottom: 10px;
 }
 
 #buttonshadow {
@@ -92,8 +93,130 @@ width: 200px;
   -moz-box-shadow: 0px 5px 5px -1px;
   box-shadow: 0px 5px 5px -1px;
 }
+
+#socialmedia {
+  float: left;
+  margin-left: 12px;
+  margin-top: 15px;
+}
+
+#webbys {
+  float: left;
+  margin-left: 6px;
+  margin-top: 15px;
+}
 /* ---CLOSE ASIDE */
 
+/* ---SEARCHBOX--- */
+.searchBox {
+  font-family: Helvetica,Arial,sans-serif;
+  margin-left: 12px;
+  width: 185px;
+  position: relative;
+  top: 20px;
+}
+
+#SSESearch {
+  font-family: Helvetica,Arial,sans-serif;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+
+.searchbox2 {
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_searchbox_bg.png");
+  background-repeat: no-repeat;
+  float: left;
+  font-family: Helvetica,Arial,sans-serif;
+  height: 28px;
+  padding-top: 5px;
+  width: 155px;
+}
+
+#criteria {
+ background-color: transparent;
+  border-bottom-color: rgb(104, 134, 173);
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-source: none;
+  border-image-width: 1 1 1 1;
+  border-left-color: rgb(104, 134, 173);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(104, 134, 173);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(104, 134, 173);
+  border-top-style: none;
+  border-top-width: 0px;
+  color: rgb(104, 134, 173);
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  margin-bottom: 3px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 2px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  width: 143px;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+}
+
+.searchinput2 {
+  background-color: transparent;
+  border-bottom-color: rgb(104, 134, 173);
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-source: none;
+  border-image-width: 1 1 1 1;
+  border-left-color: rgb(104, 134, 173);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(104, 134, 173);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(104, 134, 173);
+  border-top-style: none;
+  border-top-width: 0px;
+  color: rgb(104, 134, 173);
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  margin-bottom: 3px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 2px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  width: 143px;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+}
+
+#submit {
+  font-family: sans-serif;
+}
+
+/* ---CLOSE SEARCHBOX--- */
 
 
 /* ---SECTION--- */
@@ -108,9 +231,113 @@ width: 200px;
 
 
 /* ---FOOTER--- */
-footer{
-  background-color: pink;
+footer {
+  background: url(http://solarsystem.nasa.gov/images/bg-footer.png) no-repeat;
   width: 950px;
+  height: 128px;
   float: left;
+  background-image: 100%;
+  margin-top: 10px;
+  margin-bottom: 175px;
+  -webkit-box-shadow: 0px 10px 25px 0px;
+   -moz-box-shadow: 0px 10px 25px 0px;
+   box-shadow: 0px 10px 25px 0px;
+}
+
+#footernav {
+  display: inline;
+  font-family: Helvetica, Arial, sans-serif, serif;
+  color: rgb(137, 153, 177);
+  font-size: 11px;
+  float: left;
+  margin-left: -10px;
+  position: relative;
+  top: -3px;
+  left: -3px;
+}
+
+#footernav li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  left: -25px;
+  margin-bottom: -15px;
+}
+
+footer img {
+  margin-left: 9px;
+  float: left;
+  margin-top: -3px;
+  position: relative;
+  top: -4px;
+}
+
+#credits1 {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif, serif;
+  font-size: 9px;
+  float: left;
+  width: 250px
+}
+
+#credits1 li {
+  list-style: none;
+  margin-bottom: 2px;
+  color: rgb(137, 153, 177);
+  position: relative;
+  left: -27px;
+  top: -4px;
+}
+
+#credits2 {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif, serif;
+  font-size: 9px;
+  float: left;
+  width: 250px
+}
+
+#credits2 li {
+  list-style: none;
+  margin-bottom: 2px;
+  color: rgb(137, 153, 177);
+  position: relative;
+  left: -27px;
+  top: -4px;
+}
+
+#credits3 {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif, serif;
+  font-size: 9px;
+  float: left;
+  width: 150px
+}
+
+#credits3 li {
+  list-style: none;
+  margin-bottom: 2px;
+  color: rgb(137, 153, 177);
+  position: relative;
+  left: -27px;
+  top: -4px;
+}
+
+#credits4 {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif, serif;
+  font-size: 9px;
+  float: left;
+  width: 120px
+}
+
+#credits4 li {
+  list-style: none;
+  margin-bottom: 2px;
+  color: rgb(137, 153, 177);
+  position: relative;
+  left: -27px;
+  top: -4px;
 }
 /* ---CLOSE FOOTER--- */

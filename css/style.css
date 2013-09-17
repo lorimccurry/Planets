@@ -1,7 +1,9 @@
 /* ---BODY--- */
 body {
-
-
+background: url(../images/bg-bottom.png) no-repeat;
+background-image: 100%;
+position: relative;
+top: -6px;
 }
 
 /* ---CLOSE BODY */
@@ -10,7 +12,7 @@ body {
 
 /* ---.CONTAINER--- */
 .container {
-  width: 960px;
+  width: 950px;
   background-color: blue;
   margin: auto;
 }
@@ -19,10 +21,27 @@ body {
 
 
 /* ---HEADER-- */
-header{
-  background-color: yellow;
-  width: 960px;
+.header {
+  background: url(../images/NASABanner-trans.png) no-repeat;
+  width: 950px;
   float: left;
+  height: 65px;
+  margin: auto;
+}
+
+.title {
+  background: url(../images/topbanner_ssetitle.png) no-repeat;
+  width: 680px;
+  float: left;
+  background-image: 100%;
+  height: 79px;
+}
+
+.title2 {
+  background: url(../images/topbanner_planets.png) no-repeat;
+  float: left;
+  width: 270px;
+  height: 79px;
 }
 /* ---CLOSE HEADER */
 
@@ -31,18 +50,56 @@ header{
 
 /* ---ASIDE--- */
 aside{
-  background-color: purple;
+  background-color: #09234a;
   width: 200px;
   float: left;
+  height: 1676px;
+}
+
+.topcontainer {
+background-color: #36223e;
+}
+
+.navbar1 img {
+float: left;
+width: 200px;
+}
+
+.inset {
+  float: left;
+  width: 200px;
+  background-color: #36223e;
+}
+
+.navitem {
+  color: rgb(147, 123, 158);
+  font-family: Helvetica,Arial,sans-serif, serif;
+  font-size: 12px;
+  margin: 10px 0 10px 15px;
+}
+
+#mainnavitem {
+  color: rgb(255, 255, 255);
+}
+
+.navbar2 img {
+  float: left;
+  width: 200px;
+}
+
+#buttonshadow {
+  -webkit-box-shadow: 0px 5px 5px -1px;
+  -moz-box-shadow: 0px 5px 5px -1px;
+  box-shadow: 0px 5px 5px -1px;
 }
 /* ---CLOSE ASIDE */
 
 
 
 /* ---SECTION--- */
-section {
+.main {
   background-color: green;
-  width: 760px;
+  width: 750px;
   float: left;
 }
 
@@ -53,7 +110,7 @@ section {
 /* ---FOOTER--- */
 footer{
   background-color: pink;
-  width: 960px;
+  width: 950px;
   float: left;
 }
 /* ---CLOSE FOOTER--- */

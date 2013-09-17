@@ -1,0 +1,59 @@
+/* ---BODY--- */
+body {
+
+
+}
+
+/* ---CLOSE BODY */
+
+
+
+/* ---.CONTAINER--- */
+.container {
+  width: 960px;
+  background-color: blue;
+  margin: auto;
+}
+/* ---CLOSE .CONTAINER */
+
+
+
+/* ---HEADER-- */
+header{
+  background-color: yellow;
+  width: 960px;
+  float: left;
+}
+/* ---CLOSE HEADER */
+
+
+
+
+/* ---ASIDE--- */
+aside{
+  background-color: purple;
+  width: 200px;
+  float: left;
+}
+/* ---CLOSE ASIDE */
+
+
+
+/* ---SECTION--- */
+section {
+  background-color: green;
+  width: 760px;
+  float: left;
+}
+
+/* ---CLOSE SECTION */
+
+
+
+/* ---FOOTER--- */
+footer{
+  background-color: pink;
+  width: 960px;
+  float: left;
+}
+/* ---CLOSE FOOTER--- */

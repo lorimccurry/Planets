@@ -40,11 +40,73 @@ aside{
 
 
 /* ---SECTION--- */
-section {
+#main_wrapper {
   background-color: green;
-  width: 760px;
+  width: 750px;
   float: left;
 }
+
+.fact_boxes{
+  float: left;
+  width: 352px;
+  border: 1px solid red;
+}
+
+.fact_boxes h4 {
+  color: #ffffff;
+  margin: 0;
+  padding: 3px 10px;
+}
+
+.fact_boxes ul{
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.fact_boxes li{
+  background-color:rgb(212, 222, 235);
+  list-style: none;
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #000000;
+  padding-left: 3px;
+}
+
+/* ---First fact box--- */
+
+#box1 {
+  font-weight: bold;
+}
+
+#box1 ul:first-of-type > li:nth-child(1) a{
+  text-decoration: none;
+  color: #A2A2A2
+}
+
+#box1 li > span{
+  color: #003680;
+}
+
+#box1 li > a{
+  color: #000000;
+  text-decoration: none;
+}
+
+/* ---END First fact box--- */
+
+#box2{
+  border: 1px solid yellow;
+}
+
+#box2 img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Second fact box */
+
+
 
 /* ---CLOSE SECTION */
 

@@ -50,6 +50,8 @@ aside{
   float: left;
   width: 352px;
   border: 1px solid red;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
 }
 
 .fact_boxes h4 {
@@ -69,10 +71,15 @@ aside{
   margin-bottom: 2px;
   font-weight: bold;
   color: #000000;
-  padding-left: 3px;
+  padding: 3px 0 3px 3px;
 }
 
-/* ---First fact box--- */
+.fact_boxes a{
+  color: #003680;
+  text-decoration: none;
+}
+
+/* ---FACT BOX 1--- */
 
 #box1 {
   font-weight: bold;
@@ -92,21 +99,103 @@ aside{
   text-decoration: none;
 }
 
-/* ---END First fact box--- */
-
+/* ---FACT BOX 2--- */
 #box2{
   border: 1px solid yellow;
 }
 
 #box2 img{
   display: block;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
+/* ---FACT BOX 4--- */
 
-/* Second fact box */
+#box4 {
+  position: relative;
+}
 
+#box4 li{
+  padding: 5px 0 8px 5px;
+  font-weight: normal;
+}
 
+#box4 a {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#box4 ul:first-child p{
+  display: inline;
+  float: left;
+}
+
+#box4 li:first-child img{
+  /*position: absolute;
+  top: 0;
+  right: 0;*/
+  float: right;
+  margin: 2px 5px;
+}
+
+#box4 p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#box4 li:last-child{
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+#box4 li:last-child a{
+  color: #000000;
+  font-size: 12px;
+}
+
+/* ---FACT BOX 5--- */
+
+#box5 {
+  position: relative;
+}
+
+#box5 li{
+  padding-left: 20px;
+}
+
+/*#box5 li:last-child {
+  position: absolute;
+  height: 100%
+  width: 347px;
+}*/
+
+#box5 a{
+  color: #000000;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+/* ---FACT BOX 6--- */
+#box6 li{
+  padding-left: 10px;
+}
+
+#box6 a{
+  color: #000000;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+/* ---FACT BOX 7--- */
+#box7 li{
+  padding-left: 10px;
+}
+
+#box7 a{
+  color: #000000;
+  font-weight: normal;
+  font-size: 11px;
+}
 
 /* ---CLOSE SECTION */
 

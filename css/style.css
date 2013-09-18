@@ -365,6 +365,7 @@ width: 200px;
   font-size: 11px;
   margin: 5px;
   text-align: left;
+
   /*text-indent: 10px;*/
 }
 
@@ -376,7 +377,12 @@ width: 200px;
   float: left;
 }
 
+#center_text {
+  text-align: center;
+}
+
 .fact_boxes{
+  clear: both;
   width: 750px;
   border: 1px solid red;
   font-family: Helvetica, Arial, sans-serif;

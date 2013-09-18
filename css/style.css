@@ -41,23 +41,25 @@ aside{
 
 /* ---SECTION--- */
 #main_wrapper {
-  background-color: green;
+  /*background-color: green;*/
   width: 750px;
   float: left;
 }
 
 .fact_boxes{
-  float: left;
   width: 750px;
   border: 1px solid red;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
+  /*position: relative;
+  height: auto;*/
 }
 
 .fact_boxes h4 {
   color: #ffffff;
   margin: 0;
   padding: 3px 10px;
+  background-color: red;
 }
 
 .fact_boxes ul{
@@ -79,13 +81,21 @@ aside{
   text-decoration: none;
 }
 
-/* ---FACT BOX 1--- */
+/* ---FACT BOX 1: Just the Facts--- */
 
 #box1 {
   font-weight: bold;
   float: left;
-  border-color: 1px solid pink;
+  border: 1px solid pink;
   width: 352px;
+  margin-top: 5px;
+  margin-right: 6px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 5px;
+  /*position: absolute;
+  display: inline;
+  height: 100%
+  margin: 0 auto;*/
 }
 
 #box1 ul:first-of-type > li:nth-child(1) a{
@@ -102,11 +112,19 @@ aside{
   text-decoration: none;
 }
 
-/* ---FACT BOX 2--- */
+/* ---FACT BOX 2: Visit Jupiter--- */
 #box2{
-  border: 1px solid yellow;
+  border: 1px solid blue;
   float: left;
   width: 352px;
+  margin-top: 5px;
+  margin-right: 5px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 6px;
+  /*position: absolute;
+  display: inline;
+  height: 100%;
+  margin: 0 auto;*/
 }
 
 #box2 img{
@@ -114,17 +132,27 @@ aside{
   margin: 5px auto;
 }
 
+/* ---FACT BOX 3: Resources--- */
+
 #box3 {
   float: left;
   width: 352px;
+  margin-top: 5px;
+  margin-right: 6px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 5px;
 }
 
-/* ---FACT BOX 4--- */
+/* ---FACT BOX 4: People Spotlight--- */
 
 #box4 {
-  position: relative;
   float: left;
   width: 352px;
+  width: 352px;
+  margin-top: 5px;
+  margin-right: 5px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 6px;
 }
 
 #box4 li{
@@ -165,12 +193,15 @@ aside{
   font-size: 12px;
 }
 
-/* ---FACT BOX 5--- */
+/* ---FACT BOX 5: Calendar--- */
 
 #box5 {
-  position: relative;
   float: left;
   width: 352px;
+  margin-top: 5px;
+  margin-right: 6px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 5px;
 }
 
 #box5 li{
@@ -189,9 +220,14 @@ aside{
   font-size: 11px;
 }
 
-/* ---FACT BOX 6--- */
+/* ---FACT BOX 6: Headlines--- */
 #box6 {
   width: 352px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 6px;
 }
 
 #box6 li{
@@ -213,10 +249,15 @@ aside{
   font-weight: bold;
 }
 
-/* ---FACT BOX 7--- */
+/* ---FACT BOX 7: Science & Tech--- */
 
 #box7 {
   width: 352px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 6px;
 }
 
 #box7 li{

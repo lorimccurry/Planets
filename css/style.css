@@ -47,7 +47,7 @@ aside{
 }
 
 .fact_boxes{
-  width: 750px;
+  width: 722px;
   border: 1px solid red;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -91,7 +91,7 @@ aside{
   margin-top: 5px;
   margin-right: 6px;
   /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
-  margin-left: 5px;
+  margin-left: 0;
   /*position: absolute;
   display: inline;
   height: 100%
@@ -118,7 +118,7 @@ aside{
   float: left;
   width: 352px;
   margin-top: 5px;
-  margin-right: 5px;
+  margin-right: 0;
   /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
   margin-left: 6px;
   /*position: absolute;
@@ -140,17 +140,16 @@ aside{
   margin-top: 5px;
   margin-right: 6px;
   /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
-  margin-left: 5px;
+  margin-left: 0;
 }
 
 /* ---FACT BOX 4: People Spotlight--- */
 
 #box4 {
-  float: left;
-  width: 352px;
+  float: right;
   width: 352px;
   margin-top: 5px;
-  margin-right: 5px;
+  margin-right: 0;
   /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
   margin-left: 6px;
 }
@@ -170,13 +169,10 @@ aside{
   float: left;
 }
 
-/*#box4 img{
-  position: absolute;
-  top: 0;
-  right: 0;
-  float: left;
+#box4 img{
+  float: right;
   margin: 2px 5px;
-}*/
+}
 
 #box4 p{
   margin-top: 0px;
@@ -197,11 +193,12 @@ aside{
 
 #box5 {
   float: left;
+  clear: left;
   width: 352px;
   margin-top: 5px;
   margin-right: 6px;
   /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
-  margin-left: 5px;
+  margin-left: 0;
 }
 
 #box5 li{
@@ -223,9 +220,9 @@ aside{
 /* ---FACT BOX 6: Headlines--- */
 #box6 {
   width: 352px;
-  float: left;
+  float: right;
   margin-top: 5px;
-  margin-right: 5px;
+  margin-right: 0;
   /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
   margin-left: 6px;
 }
@@ -253,9 +250,10 @@ aside{
 
 #box7 {
   width: 352px;
-  float: left;
+  float: right;
+  clear: right;
   margin-top: 5px;
-  margin-right: 5px;
+  margin-right: 0;
   /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
   margin-left: 6px;
 }

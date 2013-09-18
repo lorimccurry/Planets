@@ -1,9 +1,17 @@
 /* ---BODY--- */
 body {
+/*<<<<<<< HEAD
 background: url(../images/bg-bottom.png) no-repeat;
 background-image: 100%;
 position: relative;
 top: -6px;
+=======*/
+background: url(../images/bg-bottom.png) bottom no-repeat, url(http://solarsystem.nasa.gov/images/bg-top.png) top no-repeat;
+background-image: 100%;
+position: relative;
+top: -6px;
+background-color: black;
+/*>>>>>>> merged*/
 }
 
 /* ---CLOSE BODY */
@@ -11,7 +19,11 @@ top: -6px;
 
 
 /* ---.CONTAINER--- */
+/*<<<<<<< HEAD
 .container {
+=======*/
+#container {
+/*>>>>>>> merged*/
   width: 950px;
   background-color: blue;
   margin: auto;
@@ -53,22 +65,41 @@ aside{
   background-color: #09234a;
   width: 200px;
   float: left;
+/*<<<<<<< HEAD
   height: 1676px;
-}
+=======*/
+  height: 1497px;
+  /* height should be 1676px */
+  -webkit-box-shadow: 0px 10px 25px 0px;
+   -moz-box-shadow: 0px 10px 25px 0px;
+   box-shadow: 0px 10px 25px 0px;
+/*>>>>>>> merged
+*/}
 
 .topcontainer {
 background-color: #36223e;
 }
+/*<<<<<<< HEAD
+*/
 
 .navbar1 img {
+/*=======
+>>>>>>> merged*/
 float: left;
 width: 200px;
 }
 
+/*<<<<<<< HEAD*/
 .inset {
   float: left;
   width: 200px;
   background-color: #36223e;
+}
+/*=======*/
+.topcontainer img {
+float: left;
+width: 200px;
+/*>>>>>>> merged*/
 }
 
 .navitem {
@@ -76,15 +107,25 @@ width: 200px;
   font-family: Helvetica,Arial,sans-serif, serif;
   font-size: 12px;
   margin: 10px 0 10px 15px;
+/*<<<<<<< HEAD
+=======*/
+  position: relative;
+  top: 10px;
+/*>>>>>>> merged*/
 }
 
 #mainnavitem {
   color: rgb(255, 255, 255);
 }
 
+/*<<<<<<< HEAD*/
 .navbar2 img {
   float: left;
   width: 200px;
+}/*=======*/
+#lastnavitem {
+  padding-bottom: 10px;
+/*>>>>>>> merged*/
 }
 
 #buttonshadow {
@@ -92,6 +133,7 @@ width: 200px;
   -moz-box-shadow: 0px 5px 5px -1px;
   box-shadow: 0px 5px 5px -1px;
 }
+/*<<<<<<< HEAD*/
 /* ---CLOSE ASIDE */
 
 
@@ -104,13 +146,588 @@ width: 200px;
 }
 
 /* ---CLOSE SECTION */
+/*=======*/
+
+#socialmedia {
+  float: left;
+  margin-left: 12px;
+  margin-top: 15px;
+}
+
+#webbys {
+  float: left;
+  margin-left: 6px;
+  margin-top: 15px;
+}
+/* ---CLOSE ASIDE */
+
+/* ---SEARCHBOX--- */
+.searchBox {
+  font-family: Helvetica,Arial,sans-serif;
+  margin-left: 12px;
+  width: 185px;
+  position: relative;
+  top: 20px;
+}
+
+#SSESearch {
+  font-family: Helvetica,Arial,sans-serif;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+
+.searchbox2 {
+  background-image: url("http://solarsystem.nasa.gov/images/leftnav_searchbox_bg.png");
+  background-repeat: no-repeat;
+  float: left;
+  font-family: Helvetica,Arial,sans-serif;
+  height: 28px;
+  padding-top: 5px;
+  width: 155px;
+}
+
+#criteria {
+ background-color: transparent;
+  border-bottom-color: rgb(104, 134, 173);
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-source: none;
+  border-image-width: 1 1 1 1;
+  border-left-color: rgb(104, 134, 173);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(104, 134, 173);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(104, 134, 173);
+  border-top-style: none;
+  border-top-width: 0px;
+  color: rgb(104, 134, 173);
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  margin-bottom: 3px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 2px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  width: 143px;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+}
+
+.searchinput2 {
+  background-color: transparent;
+  border-bottom-color: rgb(104, 134, 173);
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-source: none;
+  border-image-width: 1 1 1 1;
+  border-left-color: rgb(104, 134, 173);
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: rgb(104, 134, 173);
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: rgb(104, 134, 173);
+  border-top-style: none;
+  border-top-width: 0px;
+  color: rgb(104, 134, 173);
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  margin-bottom: 3px;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 2px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  width: 143px;
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+}
+
+#submit {
+  font-family: sans-serif;
+}
+
+/* ---CLOSE SEARCHBOX--- */
+
+/* MAIN START */
+#main_wrapper {
+  background-color: white;
+  border-top-right-radius: 15px;
+  float: left;
+  font-family: Helvetica,Arial,sans-serif, serif;
+  font-size: 12px;
+  /*padding: 14px 9px 10px 9px;*/
+  width: 732px;
+}
+#main_wrapper > h1 {
+  margin: 0;
+}
+/* ---CLOSE #main_wrapper--- */
+
+
+
+/* ---#breadcrumbs--- */
+#breadcrumbs {
+
+}
+#breadcrumbs ul {
+  list-style-type: none;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 7px;
+  text-align: left;
+}
+#breadcrumbs ul li {
+  display: inline;
+  letter-spacing: 0.1em;
+}
+#breadcrumbs ul li a {
+  /*color: #165aae;*/
+}
+#breadcrumbs ul li a:link {
+  color: #165aae;
+  text-decoration: none;
+}
+#breadcrumbs h1 {
+  font-size: 18px;
+  margin: 0;
+  padding: 4px 6px 6px 6px;
+}
+/* ---CLOSE #breadcrumbs--- */
+
+
+
+/* ---#main_content--- */
+#main_content {
+  background-color: rgb(212, 222, 235);
+  width: 732px;
+  float: left;
+}
+
+.details ul {
+  list-style-type: none;
+  margin: 5px 2px 2px 0;
+  text-align: right;
+}
+
+#details_list li, #details_list2 li {
+  background-color: white;
+  border-radius: 3px;
+  color: #456793;
+  display: inline-block;
+  font-size: 12px;
+  text-align: right;
+}
+#details_list li {
+  padding: 2px 40px;
+}
+
+#details_list2 li {
+  padding: 0 45px;
+}
+
+.details li a {
+  text-decoration: none;
+}
+
+#main_content figure {
+  border: 1px solid gray;
+  margin: 7px;
+  padding: 4px;
+  text-align: center;
+}
+
+#main_content figcaption {
+  color: #165aae;
+  font-size: 11px;
+  margin: 5px;
+  text-align: left;
+  /*text-indent: 10px;*/
+}
+
+/* LORI */
+
+#main_wrapper {
+  /*background-color: green;*/
+  width: 750px;
+  float: left;
+}
+
+.fact_boxes{
+  width: 750px;
+  border: 1px solid red;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  /*position: relative;
+  height: auto;*/
+}
+
+.fact_boxes h4 {
+  color: #ffffff;
+  margin: 0;
+  padding: 3px 10px;
+  background-color: red;
+}
+
+.fact_boxes ul{
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.fact_boxes li{
+  background-color:rgb(212, 222, 235);
+  list-style: none;
+  margin-bottom: 2px;
+  font-weight: bold;
+  color: #000000;
+  padding: 3px 0 3px 3px;
+}
+
+.fact_boxes a{
+  color: #003680;
+  text-decoration: none;
+}
+
+/* ---FACT BOX 1: Just the Facts--- */
+
+#box1 {
+  font-weight: bold;
+  float: left;
+  border: 1px solid pink;
+  width: 352px;
+  margin-top: 5px;
+  margin-right: 6px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 5px;
+  /*position: absolute;
+  display: inline;
+  height: 100%
+  margin: 0 auto;*/
+}
+
+#box1 ul:first-of-type > li:nth-child(1) a{
+  text-decoration: none;
+  color: #A2A2A2
+}
+
+#box1 li > span{
+  color: #003680;
+}
+
+#box1 li > a{
+  color: #000000;
+  text-decoration: none;
+}
+
+/* ---FACT BOX 2: Visit Jupiter--- */
+#box2{
+  border: 1px solid blue;
+  float: left;
+  width: 352px;
+  margin-top: 5px;
+  margin-right: 5px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 6px;
+  /*position: absolute;
+  display: inline;
+  height: 100%;
+  margin: 0 auto;*/
+}
+
+#box2 img{
+  display: block;
+  margin: 5px auto;
+}
+
+/* ---FACT BOX 3: Resources--- */
+
+#box3 {
+  float: left;
+  width: 352px;
+  margin-top: 5px;
+  margin-right: 6px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 5px;
+}
+
+/* ---FACT BOX 4: People Spotlight--- */
+
+#box4 {
+  float: left;
+  width: 352px;
+  width: 352px;
+  margin-top: 5px;
+  margin-right: 5px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 6px;
+}
+
+#box4 li{
+  padding: 5px 0 8px 5px;
+  font-weight: normal;
+}
+
+#box4 a {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#box4 ul:first-child p{
+  display: inline;
+  float: left;
+}
+
+/*#box4 img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: left;
+  margin: 2px 5px;
+}*/
+
+#box4 p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#box4 li:last-child{
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+#box4 li:last-child a{
+  color: #000000;
+  font-size: 12px;
+}
+
+/* ---FACT BOX 5: Calendar--- */
+
+#box5 {
+  float: left;
+  width: 352px;
+  margin-top: 5px;
+  margin-right: 6px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 5px;
+}
+
+#box5 li{
+  padding-left: 20px;
+}
+
+/*#box5 li:last-child {
+  position: absolute;
+  height: 100%
+  width: 347px;
+}*/
+
+#box5 a{
+  color: #000000;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+/* ---FACT BOX 6: Headlines--- */
+#box6 {
+  width: 352px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 6px;
+}
+
+#box6 li{
+  padding-left: 10px;
+}
+
+#box6 a{
+  color: #000000;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+#box6 p{
+  display: inline;
+}
+
+#box6 li:last-child a{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* ---FACT BOX 7: Science & Tech--- */
+
+#box7 {
+  width: 352px;
+  float: left;
+  margin-top: 5px;
+  margin-right: 5px;
+  /*margin-bottom: 8px;*/ /* wtf is happening w/ the bottom margin? */
+  margin-left: 6px;
+}
+
+#box7 li{
+  padding-left: 10px;
+}
+
+#box7 a{
+  color: #000000;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+#box7 p {
+  display: inline;
+}
+
+/* ---CLOSE SECTION--- */
+
+/* END LORI */
+/* ---CLOSE #main_content */
+
+/*>>>>>>> merged*/
 
 
 
 /* ---FOOTER--- */
+/*<<<<<<< HEAD*/
 footer{
   background-color: pink;
   width: 950px;
   float: left;
+}/*=======*/
+footer {
+  background: url(http://solarsystem.nasa.gov/images/bg-footer.png) no-repeat;
+  width: 950px;
+  height: 128px;
+  float: left;
+  background-image: 100%;
+  margin-top: 10px;
+  margin-bottom: 175px;
+  -webkit-box-shadow: 0px 10px 25px 0px;
+   -moz-box-shadow: 0px 10px 25px 0px;
+   box-shadow: 0px 10px 25px 0px;
+}
+
+#footernav {
+  display: inline;
+  font-family: Helvetica, Arial, sans-serif, serif;
+  color: rgb(137, 153, 177);
+  font-size: 11px;
+  float: left;
+  margin-left: -10px;
+  position: relative;
+  top: -3px;
+  left: -3px;
+}
+
+#footernav li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  left: -25px;
+  margin-bottom: -15px;
+}
+
+footer img {
+  margin-left: 9px;
+  float: left;
+  margin-top: -3px;
+  position: relative;
+  top: -4px;
+}
+
+#credits1 {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif, serif;
+  font-size: 9px;
+  float: left;
+  width: 250px
+}
+
+#credits1 li {
+  list-style: none;
+  margin-bottom: 2px;
+  color: rgb(137, 153, 177);
+  position: relative;
+  left: -27px;
+  top: -4px;
+}
+
+#credits2 {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif, serif;
+  font-size: 9px;
+  float: left;
+  width: 250px
+}
+
+#credits2 li {
+  list-style: none;
+  margin-bottom: 2px;
+  color: rgb(137, 153, 177);
+  position: relative;
+  left: -27px;
+  top: -4px;
+}
+
+#credits3 {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif, serif;
+  font-size: 9px;
+  float: left;
+  width: 150px
+}
+
+#credits3 li {
+  list-style: none;
+  margin-bottom: 2px;
+  color: rgb(137, 153, 177);
+  position: relative;
+  left: -27px;
+  top: -4px;
+}
+
+#credits4 {
+  text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif, serif;
+  font-size: 9px;
+  float: left;
+  width: 120px
+}
+
+#credits4 li {
+  list-style: none;
+  margin-bottom: 2px;
+  color: rgb(137, 153, 177);
+  position: relative;
+  left: -27px;
+  top: -4px;
+/*>>>>>>> merged*/
 }
 /* ---CLOSE FOOTER--- */

@@ -7,7 +7,9 @@
   <title>Jupiter</title>
 </head>
 <body>
-  <div class="container">
+
+  <div id="container">
+
     <header class="header"></header>
     <header class="title"></header>
     <header class="title2"></header>
@@ -18,12 +20,18 @@
 
     <aside>
       <section class="topcontainer">
-        <section class="navbar1">
+<!-- <<<<<<< HEAD
+ -->        <section class="navbar1">
           <img src="images/leftnav_home_off.jpg" alt="Home Button" height="30px" width="200px">
           <img src="images/leftnav_news_off.jpg" alt="News Button" height="30px" width="200px">
           <img id="buttonshadow" src="images/leftnav_planets_sel.jpg" alt="Planets Button">
         </section>
         <section class="inset">
+<!-- =======
+           <img src="images/leftnav_home_off.jpg" alt="Home Button" height="30px" width="200px">
+          <img src="images/leftnav_news_off.jpg" alt="News Button" height="30px" width="200px">
+          <img id="buttonshadow" src="images/leftnav_planets_sel.jpg" alt="Planets Button">
+>>>>>>> merged -->
           <div class="navitem">Our Solar System</div>
           <div class="navitem">Sun </div>
           <div class="navitem">Mercury</div>
@@ -40,15 +48,20 @@
           <div class="navitem">Dwarf Planets</div>
           <div class="navitem">Comets</div>
           <div class="navitem">Kulper Belt & Oort Cloud</div>
-          <div class="navitem">Beyond Our Solar System</div>
+<!-- <<<<<<< HEAD
+ -->          <div class="navitem">Beyond Our Solar System</div>
         </section>
         <section class="navbar2">
+<!-- =======
+          <div class="navitem" id="lastnavitem">Beyond Our Solar System</div>
+>>>>>>> merged -->
           <img src="images/leftnav_missions_off.jpg" alt="Missions Button" width="200px" height="30px">
           <img src="images/leftnav_scitech_off.jpg" alt="SciTech Button" width="200px" height="30px">
           <img src="images/leftnav_multimedia_off.jpg" alt="Multimedia Button" height="30px" width="200px">
           <img src="images/leftnav_people_off.jpg" alt="People Button" height="30px" width="200px">
           <img src="images/leftnav_kids_off.jpg" alt="Kids Button" width="200px" height="30px">
           <img id="buttonshadow" src="images/leftnav_educ_off.jpg" alt="Education Button" width="200px" height="30px">
+<!-- <<<<<<< HEAD
         </section>
       </section>
     </aside>
@@ -56,6 +69,22 @@
 
 
 
+======= -->
+      </section>
+
+<!-- START SEARCHBOX -->
+      <div class="searchBox"><form id="SSESearch" style="margin: 0px; padding: 0px;" method="post" action="../search/index.cfm" name="SSESearch"><input type="hidden" value="" name="SubsiteSearch"></input><div class="searchbox2" style="float: left;"><input id="criteria" class="searchinput2" type="Text" onblur="if(this.value=='')this.value='Search';" onfocus="if(this.value=='Search')this.value='';" name="criteria" value="Search"></input></div><div style="float: left;"><input id="Submit" width="23" type="Image" height="28" onmouseout="this.src = 'images/leftnav_searchbox_submit_off.png';" onmouseover="this.src = 'http://solarsystem.nasa.gov/images/leftnav_searchbox_submit_on.png';" alt="Click here to submit search request" label="Click here to submit search request" src="images/leftnav_searchbox_submit_off.png" name="Submit"></input></div></form><script>
+
+            document.getElementById('SSESearch').action = '../search/index.cfm';
+
+    </script><br clear="all"></br></div>
+<!-- END SEARCHBOX -->
+
+    <img id="socialmedia" src="images/followus_off.png" alt="Follow Us Button" width="175" height="29px">
+    <img id="webbys" src="images/webby-bug-double.png" alt="Double Webbys" height="185px" width="191px">
+
+    </aside>
+<!-- >>>>>>> merged -->
 
 
 
@@ -63,9 +92,178 @@
 
 
 
+<!-- <<<<<<< HEAD
     <section class="main">Main section</section>
     <footer>Footer</footer>
 
+======= -->
+
+    <div id="main_wrapper">
+      <div id="breadcrumbs">
+        <ul>
+          <li><a href="#">SSE Home</a> ></li>
+          <li><a href="#">Planets</a> ></li>
+          <li><a href="#">Jupiter</a> ></li>
+          <li>Overview</li>
+        </ul>
+        <h1>Jupiter: Overview</h1>
+      </div>
+      <section id="main_content">
+        <div class="details">
+          <ul id="details_list">
+            <li><a href="#">Facts &amp; Figures</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Missions</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul> <!-- close details_list -->
+          <ul id="details_list2">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Read More</a></li>
+            <li><a href="#">Moons</a></li>
+            <li><a href="#">Rings</a></li>
+            <li><a href="#">Gallery</a></li>
+          </ul> <!-- close details_list2 -->
+        </div>
+        <figure>
+          <img src="images/Jupiter.jpg" alt="Jupiter">
+          <figcaption>A true-color image of Jupiter taken by the Cassini spacecraft. The Galilean moon Europa casts a shadow on the planet's cloud tops.</figcaption>
+        </figure>
+        <p>Jupiter, the most massive planet in our solar system -- with dozens of moons and an enormous magnetic field -- forms a kind of miniature solar system. Jupiter does resemble a star in composition, but it did not grow big enough to ignite. The planet's swirling cloud stripes are punctuated by massive storms such as the Great Red Spot, which has raged for hundreds of years.</p>
+        <p>Jupiter's appearance is a tapestry of beautiful colors and atmospheric features. Most visible clouds are composed of ammonia. Water vapor exists deep below and can sometimes be seen through clear spots in the clouds. The planet's "stripes" are dark belts and light zones created by strong east-west winds in Jupiter's upper atmosphere.</p>
+        <p><strong>Featured Mission:</strong> <a href="#">Juno</a></p>
+        <p>NASA's Juno polar orbiter will study how Jupiter formed and became the dynamic world we see today. Juno will also help us to better understand the formation of our solar system and other planetary systems.</p>
+        <p><strong>Read More About Jupiter</strong><img src="images/arrow2-transparent-blue.png" alt=""></p>
+
+
+      </section> <!-- close main_content -->
+      <div class="fact_boxes">
+        <div id="box1">
+          <h4>Just the Facts</h4>
+          <ul>
+            <li>Metric | <a href="#">English</a> | <a href="#">Scientific Notation</a></li>
+            <li><span>Orbit Size (semi-major axis):</span> 778,340,821 km</li>
+            <li><span>Mean Radius:</span> 69,911 km</li>
+            <li><span>Volume:</span> 1,431,281,810,739,360 km<sup>3</sup></li>
+            <li><span>Mass:</span> 1,898,130,000,000,000,000,000,000,000 kg</li>
+            <li><a href="#">More Facts:<img src="images/arrow2-transparent.png" alt="arrow button"></a></li>
+          </ul>
+        </div>
+        <div id="box2">
+          <h4>Visit Jupiter</h4>
+          <img src="images/postagestamp-eyes-jupiter.jpg" alt="Explore Jupiter">
+        </div>
+        <div id="box3">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Missions to Jupiter</a></li>
+            <li><a href="#">Images of Jupiter</a></li>
+            <li><a href="#">Videos about Jupiter</a></li>
+            <li><a href="#">Exploring the Planets - Jupiter</a></li>
+            <li><a href="#">Galileo and Cassini at Jupiter</a></li>
+            <li><a href="#">NASA Lithograph on Jupiter</a></li>
+            <li><a href="#">NASA Planetary Photojournal - Jupiter</a></li>
+            <li><a href="#">National Space Science Data Center Photo Gallery - Jupiter</a></li>
+            <li><a href="#">StarDate - Jupiter</a></li>
+            <li><a href="#">Voyager: Multimedia Tour</a></li>
+            <li><a href="#">Voyager 2 Science Summary for Jupiter</a></li>
+            <li><a href="#">Welcome to the Planets</a></li>
+            <li><a href="#">Jupiter's Ring System</a></li>
+            <li><a href="#">Power to Explore: Radioisotope Power</a></li>
+            <li><a href="#">Compare Jupiter to other Planets/Moons</a></li>
+          </ul>
+        </div>
+        <div id="box4">
+          <h4>People Spotlight</h4>
+          <li><a href="">Rosaly Lopes</a>
+          <p>"Study hard and do what you love, then it doesn't feel like work.</p>
+          <a href="#"><img src="images/arrow2-transparent.png" alt="arrow button"></a>
+          <a href="#"><img src="images/Lopes-GautierR-main.jpg" alt="arrow button"></a>
+          <div class="clear"></div>
+          </li>
+          <li><a href="#">Amy Simon-Miller</a> - Astrophysicist</li>
+          <li><a href="#">Steve Squyres</a> - Principal Investigator</li>
+          <li><p><a href="#">Carl Sagan</a> - (1934 - 1996)</p>
+          <p>Planetary Scientist</p></li>
+          <li><a href="#">Mark Hofstadter</a> - Planetary Scientist</li>
+          <li><a href="#">Meet More Space Explorers<img src="images/arrow2-transparent.png" alt="arrow button"></a></li>
+          </ul>
+        </div>
+        <div id="box5">
+          <h4>Calendar</h4>
+            <li><strong>Oct 2013: </strong><a href="#">Juno: Earth Flyby Gravity Assist</a></li>
+            <li><strong>Jul 2016: </strong><a href="#">Juno: Jupiter Arrival</a></li>
+          </ul>
+        </div>
+        <div id="box6">
+          <h4>Headlines</h4>
+            <li><p>12 Aug 2013: </p><a href="#">NASA's Juno is Halfway to Jupiter</a></li>
+            <li>23 Apr 2013: <a href="#">Hershel Links Jupiter's Water to Comet Impact</a></li>
+            <li>14 Mar 2013: <a href="#">'Hot Spots' Ride a Merry-Go-Round on Jupiter</a></li>
+            <li>17 Oct 2012: <a href="#">Jupiter: Turmoil from Below, Battering from Above</a></li>
+            <li><p>15 Oct 2012: </p><a href="#">NASA's WISE Colors in Unknowns on Jupiter Asteroids</a></li>
+            <li><a href="#">More Headlines<img src="images/arrow2-transparent.png" alt="arrow button"></a></li>
+          </ul>
+         </div>
+        <div id="box7">
+          <h4>Science &amp; Technology Features</h4>
+            <li>10 May 2013: <a href="#">Planets Aligning in the Sunset Sky</a></li>
+            <li>18 Apr 2013: <a href="#">Solar System Exploration @ 50: What the Experts Picked</a></li>
+            <li>5 Apr 2013: <a href="#">NASA Celebrates Four Decades of Plucky Pioneer 11</a></li>
+            <li><p>25 Feb 2013: </p><a href="#">50 Years of Robotic Planetary Exploration: David Kring, Senior Staff Scientist, Universities Space Research Association, Houston; Principal Investigator, LPI-JSC</a></li>
+            <li>8 Feb 2013: <a href="#">50 Years of Robotic Planetary Exploration: Julie Castillo-Rogez, Planetary Geophysicist at the Jet Propulsion Laboratory (JPL)</a></li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    </section>
+    </div> <!-- close main_wrapper -->
+
+
+
+
+
+
+    <footer>
+      <ul id="footernav">
+        <li>Awards and Recognition</li>
+        <li>Solar System Exploration Roadmap</li>
+        <li>Contact Us</li>
+        <li>Site Map</li>
+        <li>Print This Page</li>
+      </ul>
+      <img src="images/footerline.png" alt="footerline">
+      <ul id="credits1">
+        <li>NASA Official: Kristen Erickson</li>
+        <li>Advisory: Dr. James Green, Director of Planetary Science</li>
+        <li>Outreach Manager: Alice Wessen</li>
+        <li>Curator/Editor: Phil Davis</li>
+        <li>Science Writers: Samantha Harvey & Autumn Burdick</li>
+        <li>Producer: Greg Baerg</li>
+        <li>Webmaster: David Martin</li>
+      </ul>
+      <ul id="credits2">
+        <li>> NASA Science Mission Directorate</li>
+        <li>> Budgets, Strategic Plans and Accountability Reports</li>
+        <li>> Equal Employment Opportunity Data <br> &nbsp;&nbsp;&nbsp;Posted Pursuant to the No Fear Act</li>
+        <li>> Information-Dissemination Policies and Inventories</li>
+      </ul>
+      <ul id="credits3">
+        <li>> Freedom of Information Act</li>
+        <li>> Privacy Policy & Important Notices</li>
+        <li>> Inspector General Hotline</li>
+        <li>> Office of the Inspector General</li>
+        <li>> NASA Communications Policy</li>
+      </ul>
+      <ul id="credits4">
+        <li>> USA.gov</li>
+        <li>> ExpectMore.gov</li>
+        <li>> NASA Advisory Council</li>
+        <li>> Open Government at NASA</li>
+        <li>Last Updated: 26 Apr 2013</li>
+      </ul>
+    </footer>
+<!-- >>>>>>> merged -->
   </div> <!--  close container -->
 
 </body>

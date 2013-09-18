@@ -48,7 +48,7 @@ aside{
 
 .fact_boxes{
   float: left;
-  width: 352px;
+  width: 750px;
   border: 1px solid red;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -83,6 +83,9 @@ aside{
 
 #box1 {
   font-weight: bold;
+  float: left;
+  border-color: 1px solid pink;
+  width: 352px;
 }
 
 #box1 ul:first-of-type > li:nth-child(1) a{
@@ -102,6 +105,8 @@ aside{
 /* ---FACT BOX 2--- */
 #box2{
   border: 1px solid yellow;
+  float: left;
+  width: 352px;
 }
 
 #box2 img{
@@ -109,10 +114,17 @@ aside{
   margin: 5px auto;
 }
 
+#box3 {
+  float: left;
+  width: 352px;
+}
+
 /* ---FACT BOX 4--- */
 
 #box4 {
   position: relative;
+  float: left;
+  width: 352px;
 }
 
 #box4 li{
@@ -130,13 +142,13 @@ aside{
   float: left;
 }
 
-#box4 li:first-child img{
-  /*position: absolute;
+/*#box4 img{
+  position: absolute;
   top: 0;
-  right: 0;*/
-  float: right;
+  right: 0;
+  float: left;
   margin: 2px 5px;
-}
+}*/
 
 #box4 p{
   margin-top: 0px;
@@ -157,6 +169,8 @@ aside{
 
 #box5 {
   position: relative;
+  float: left;
+  width: 352px;
 }
 
 #box5 li{
@@ -176,6 +190,10 @@ aside{
 }
 
 /* ---FACT BOX 6--- */
+#box6 {
+  width: 352px;
+}
+
 #box6 li{
   padding-left: 10px;
 }
@@ -186,7 +204,21 @@ aside{
   font-size: 11px;
 }
 
+#box6 p{
+  display: inline;
+}
+
+#box6 li:last-child a{
+  font-size: 12px;
+  font-weight: bold;
+}
+
 /* ---FACT BOX 7--- */
+
+#box7 {
+  width: 352px;
+}
+
 #box7 li{
   padding-left: 10px;
 }
@@ -197,7 +229,11 @@ aside{
   font-size: 11px;
 }
 
-/* ---CLOSE SECTION */
+#box7 p {
+  display: inline;
+}
+
+/* ---CLOSE SECTION--- */
 
 
 
